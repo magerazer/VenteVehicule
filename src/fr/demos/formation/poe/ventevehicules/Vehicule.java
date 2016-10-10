@@ -1,8 +1,7 @@
 package fr.demos.formation.poe.ventevehicules;
 import java.util.ArrayList;
 
-
-
+// Vehicule abstrait car pas d'identifiant
 public abstract class Vehicule {
 
 	protected Modele modele;
