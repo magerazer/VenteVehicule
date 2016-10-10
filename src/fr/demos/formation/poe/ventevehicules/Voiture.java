@@ -4,6 +4,7 @@ public class Voiture extends Vehicule {
 
 	private int kilometrage;
 	private String immatriculation;
+	private String puissance;
 	
 	public Voiture(Modele modele, double prixHT, String couleur, Etat etat, int annee, String immatriculation) {
 		super(modele, prixHT, couleur, etat, annee);
