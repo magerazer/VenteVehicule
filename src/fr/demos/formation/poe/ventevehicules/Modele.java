@@ -1,5 +1,7 @@
 package fr.demos.formation.poe.ventevehicules;
 
+
+// modele de vehicule
 public class Modele {
 
 	private String marque;
