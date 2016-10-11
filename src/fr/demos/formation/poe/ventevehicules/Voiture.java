@@ -6,6 +6,7 @@ public class Voiture extends VehiculeMoteur {
 	private String immatriculation;
 	private String puissance;
 	
+	
 	public Voiture(Modele modele, double prixHT, String couleur, Etat etat, int annee, String immatriculation) {
 		super(modele, prixHT, couleur, etat, annee);
 		this.immatriculation = immatriculation;
