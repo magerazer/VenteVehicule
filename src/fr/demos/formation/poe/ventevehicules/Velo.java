@@ -8,9 +8,13 @@ public class Velo extends Vehicule {
 	}
 
 	@Override
-	public String toString(){
-		return this.getModele().getMarque() + this.getModele().getReference();
+	public String toString() {
+		return "Velo [modele=" + modele + ", prixHT=" + prixHT + ", couleur=" + couleur + ", options=" + options
+				+ ", etat=" + etat + ", annee=" + annee + "]";
 	}
+
+	
+	
 	
 
 }
